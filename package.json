@@ -1,0 +1,22 @@
+{
+  "name": "has_many_relationships",
+  "version": "1.0.0",
+  "description": "When connecting to your pg database, connect from this project directory.",
+  "main": "index.js",
+  "scripts": {
+   "watch": "nodemon -e sql --exec psql -f joins.sql"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypyang237/Has-Many-Relationships.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ypyang237/Has-Many-Relationships/issues"
+  },
+  "homepage": "https://github.com/ypyang237/Has-Many-Relationships#readme",
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
